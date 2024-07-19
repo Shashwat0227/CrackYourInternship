@@ -1,4 +1,11 @@
 public class MiddleOfLL {
+    class ListNode {
+      int val;
+    ListNode next;
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }}
 //
     public ListNode middleNode(ListNode head) {
         ListNode slow = head;
@@ -12,4 +19,4 @@ public class MiddleOfLL {
         return slow;
     }
 }
-}
+
